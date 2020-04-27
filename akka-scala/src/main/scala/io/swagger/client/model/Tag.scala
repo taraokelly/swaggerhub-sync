@@ -1,6 +1,6 @@
 /**
  * Swagger Petstore
- * Pushing this to GitHub 5
+ * Pushing this to GitHub 6
  *
  * OpenAPI spec version: 1.0.0
  * Contact: apiteam@swagger.io
