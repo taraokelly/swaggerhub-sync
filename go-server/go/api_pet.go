@@ -1,7 +1,7 @@
 /*
  * Swagger Petstore
  *
- * Pushing this to GitHub 6
+ * Pushing this to GitHub 7
  *
  * API version: 1.0.0
  * Contact: apiteam@swagger.io
