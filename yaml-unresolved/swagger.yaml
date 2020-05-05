@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  description: Pushing this to GitHub 9
+  description: Pushing this to GitHub 1
   version: "1.0.0"
   title: Swagger Petstore
   termsOfService: http://swagger.io/terms/io
