@@ -1,7 +1,7 @@
 ---
 swagger: "2.0"
 info:
-  description: "Pushing this to GitHub 2"
+  description: "Pushing this to GitHub 3"
   version: "1.0.0"
   title: "Swagger Petstore"
   termsOfService: "http://swagger.io/terms/io"
@@ -11,7 +11,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "dev-virtserver.swaggerhub.com"
-basePath: "/Team_Org/SCMTest2.0/1.0.0"
+basePath: "/Team_Org/API-EnabledSCMIntegrations/1.0.0"
 tags:
 - name: "pet"
   description: "Everything about your Pets"

@@ -1,7 +1,7 @@
 /*
  * Swagger Petstore
  *
- * Pushing this to GitHub 2
+ * Pushing this to GitHub 3
  *
  * API version: 1.0.0
  * Contact: apiteam@swagger.io
@@ -52,147 +52,147 @@ var routes = Routes{
 	Route{
 		"Index",
 		"GET",
-		"/Team_Org/SCMTest2.0/1.0.0/",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/",
 		Index,
 	},
 
 	Route{
 		"AddPet",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet",
 		AddPet,
 	},
 
 	Route{
 		"DeletePet",
 		strings.ToUpper("Delete"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/{petId}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/{petId}",
 		DeletePet,
 	},
 
 	Route{
 		"FindPetsByStatus",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/findByStatus",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/findByStatus",
 		FindPetsByStatus,
 	},
 
 	Route{
 		"FindPetsByTags",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/findByTags",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/findByTags",
 		FindPetsByTags,
 	},
 
 	Route{
 		"GetPetById",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/{petId}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/{petId}",
 		GetPetById,
 	},
 
 	Route{
 		"UpdatePet",
 		strings.ToUpper("Put"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet",
 		UpdatePet,
 	},
 
 	Route{
 		"UpdatePetWithForm",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/{petId}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/{petId}",
 		UpdatePetWithForm,
 	},
 
 	Route{
 		"UploadFile",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/pet/{petId}/uploadImage",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/pet/{petId}/uploadImage",
 		UploadFile,
 	},
 
 	Route{
 		"DeleteOrder",
 		strings.ToUpper("Delete"),
-		"/Team_Org/SCMTest2.0/1.0.0/store/order/{orderId}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/store/order/{orderId}",
 		DeleteOrder,
 	},
 
 	Route{
 		"GetInventory",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/store/inventory",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/store/inventory",
 		GetInventory,
 	},
 
 	Route{
 		"GetOrderById",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/store/order/{orderId}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/store/order/{orderId}",
 		GetOrderById,
 	},
 
 	Route{
 		"PlaceOrder",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/store/order",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/store/order",
 		PlaceOrder,
 	},
 
 	Route{
 		"CreateUser",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/user",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user",
 		CreateUser,
 	},
 
 	Route{
 		"CreateUsersWithArrayInput",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/createWithArray",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/createWithArray",
 		CreateUsersWithArrayInput,
 	},
 
 	Route{
 		"CreateUsersWithListInput",
 		strings.ToUpper("Post"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/createWithList",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/createWithList",
 		CreateUsersWithListInput,
 	},
 
 	Route{
 		"DeleteUser",
 		strings.ToUpper("Delete"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/{username}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/{username}",
 		DeleteUser,
 	},
 
 	Route{
 		"GetUserByName",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/{username}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/{username}",
 		GetUserByName,
 	},
 
 	Route{
 		"LoginUser",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/login",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/login",
 		LoginUser,
 	},
 
 	Route{
 		"LogoutUser",
 		strings.ToUpper("Get"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/logout",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/logout",
 		LogoutUser,
 	},
 
 	Route{
 		"UpdateUser",
 		strings.ToUpper("Put"),
-		"/Team_Org/SCMTest2.0/1.0.0/user/{username}",
+		"/Team_Org/API-EnabledSCMIntegrations/1.0.0/user/{username}",
 		UpdateUser,
 	},
 }
